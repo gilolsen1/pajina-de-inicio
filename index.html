@@ -2,15 +2,41 @@
 
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable= no">
 
         <title>Gil Olsen</title>
 
         <link rel="stylesheet" href="css/index.css">
 
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
     </head>
     
     <body>
+
+        <nav>
+            <div class="toggle">
+            <i class="fas fa-bars"></i>
+            </div>
+
+            <ul>
+                <li> <ahref= "#" > HOME </a>  </li>
+                <li> <ahref= "#" > Fun </a>
+                <li> <ahref= "#" > Character Development </a>
+                <li> <ahref= "#" > Education </a>
+                <li> <ahref= "#" > LAMBDA </a>
+            </ul>
+        </nav>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu').click(function(){
+            $('ul').toggleClass('active');
+        })
+    })
+</script>
+
 
         <div>
             <img src="https://2mrolsen.files.wordpress.com/2019/01/gil_profile.jpg?w=450" alt="no_profile_pic_for_you!"style="margin:20px;padding;10px;width:125px;height:125px;">
@@ -23,7 +49,7 @@
             <h2>Basics</h2>
                 <p>Born and Raised in Jersey, Lived in San Diego for a few years. <br>
                     Had some awesome jobs, then, made my own. <br>
-                    Now, learning to build cool stuff on the internet.<br>
+                    Now, learning to build on the internet.<br>
                     If you think this site looks janky, that's because <a href="https://bit.ly/2S2GXIn">I built it from SCRATCH.</a> (thanks Katy!)<br>
                     Stay tuned to see how it evolves over time. <br>
                     <a href="https://twitter.com/gilbygrams?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @gilbygrams</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
